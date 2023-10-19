@@ -1,0 +1,46 @@
+.card-large, .card-featured-large{
+    display: flex;
+    max-width: 40rem;
+    min-height: 20rem;
+    border: 0.5rem solid rgb(255, 13, 170);
+    padding: 1rem;
+    gap: 5%;
+    cursor: pointer;
+}
+.card-medium, .card-featured-medium{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    min-height: 20rem;
+    border: 0.5rem solid rgb(255, 13, 170);
+    padding: 1rem;
+    gap: 5%;
+    cursor: pointer;
+}
+.card-small, .card-featured-small{ display: flex;
+    max-width: 20rem;
+    width: 20rem;
+    min-height: 10rem;
+    border: 0.5rem solid rgb(255, 13, 170);
+    padding: 1rem;
+cursor: pointer;}
+.text-block-large, .text-block-featured-large{
+    width: 65%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text-block-small, .text-block-featured-small{
+    width: 65%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+button{
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    width:15%;
+    height: auto;
+}
